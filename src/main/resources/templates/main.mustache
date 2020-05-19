@@ -4,11 +4,15 @@
     <div>
         <form method="post">
             <input type="text" name="text" placeholder="Write your message here..." />
-            <input type="text" name="tag" placeholder="Tag" />
+            <input type="text" name="tag" placeholder="tag" />
             <button type="submit">Add</button>
         </form>
     </div>
     <div>Message list</div>
+    <form method="post" action="filter">
+        <input type="text" name="filter" placeholder="Find message by tag">
+        <button type="submit">Find</button>
+    </form>
     {{#messages}}
         <div>
             <b>{{id}}</b>
