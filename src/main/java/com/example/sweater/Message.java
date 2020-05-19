@@ -14,7 +14,6 @@ import javax.persistence.Id;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
 public class Message {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,4 +21,9 @@ public class Message {
 
     private String text;
     private String tag;
+
+    public Message(String text, String tag) {
+        this.text = text;
+        this.tag = tag;
+    }
 }
