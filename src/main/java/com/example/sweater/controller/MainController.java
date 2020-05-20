@@ -1,5 +1,6 @@
-package com.example.sweater;
+package com.example.sweater.controller;
 
+import com.example.sweater.repository.MessageRepository;
 import com.example.sweater.domain.Message;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
@@ -11,7 +12,7 @@ import java.util.Map;
 
 @Controller
 @RequiredArgsConstructor
-public class GreetingController {
+public class MainController {
 
     private final MessageRepository messageRepository;
 
