@@ -1,5 +1,6 @@
 package com.example.sweater;
 
+import com.example.sweater.domain.Message;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
