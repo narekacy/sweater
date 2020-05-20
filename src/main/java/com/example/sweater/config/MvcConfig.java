@@ -1,4 +1,4 @@
-package com.example.sweater;
+package com.example.sweater.config;
 
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
