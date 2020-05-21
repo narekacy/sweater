@@ -17,7 +17,7 @@
     </div>
     <div>Message list</div>
     <form method="get" action="/main">
-        <input type="text" name="filter" value="${filter}" placeholder="Find message by tag">
+        <input type="text" name="filter" value="${filter?ifExists}" placeholder="Find message by tag">
         <button type="submit">Find</button>
     </form>
     <#list messages as message>
