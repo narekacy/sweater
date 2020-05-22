@@ -2,7 +2,7 @@
 <#import "parts/login.ftlh" as l>
 
 <@c.page>
-User registration
-${message?ifExists}
-<@l.login "/registration" />
+    User registration
+    ${message?ifExists}
+    <@l.login "/registration" />
 </@c.page>
